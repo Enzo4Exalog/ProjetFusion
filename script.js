@@ -6,7 +6,15 @@ function AjouterDesFichiers() {
     var fileListDiv = document.getElementById("file-list");
     fileListDiv.appendChild(fileInput);
   }
-  $ = function(id) {
+  function RetirerDesFichiers() {
+    var fileListDiv = document.getElementById("file-list");
+    var fileInputs = fileListDiv.getElementsByTagName("input");
+
+    if (fileInputs.length > 0) {
+        fileListDiv.removeChild(fileInputs[fileInputs.length - 1]);
+    }
+}
+$ = function(id) {
     return document.getElementById(id);
   }
   
