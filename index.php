@@ -11,6 +11,7 @@
                 <li><a href="news.asp">Comment fusionner les fichiers</a></li>
                 <li><a href="contact.asp">A quoi ça sert ?</a></li>
                 <li><a href="identifiant.php">Connexion</a></li>
+                
             </ul>
             <h1>Projet Exalog</h1>
 
@@ -33,6 +34,6 @@
                 <button type="submit" name="submit">Fusionner</button>
             
             </form>
-    </div>
+        </div>
     </body>
 </html>
